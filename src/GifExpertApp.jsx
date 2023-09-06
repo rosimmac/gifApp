@@ -24,7 +24,7 @@ export const GifExpertApp = () => {
     onNewCategory={ (event) => onAddCategory( event) }
     />
 
-    <button onClick={ onAddCategory }> Agregar </button>
+
   
       { categories.map( (category)=> (
           <GifGrid 
